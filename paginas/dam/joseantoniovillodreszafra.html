@@ -1,0 +1,106 @@
+<body style="background-color: rgba(117, 234, 186, 0.5);">
+
+    <h1 style="text-align: center;"><u><em>Curriculum Vitae</em></u></h1>
+
+    <table style="width: 100%; border-collapse: collapse;">
+        <tr>
+            <td style="width: 10%; vertical-align: top; padding: 10px;">
+                <fieldset>
+                    <legend><strong>Datos personales</strong></legend>
+                    <img src="https://cdn.discordapp.com/attachments/1168635977527476328/1170791103520309269/86c18fa9-9335-41c8-a573-4a743af0f313.png?ex=655a532f&is=6547de2f&hm=cae660c9eb66cb8e1ae2f18e46df479706bf9ea4c1c8863ce732673ff85049d4&" alt="Foto personal" style="width: 100px;">
+                    <p><strong>Nombre:</strong> José Antonio Villodres Zafra</p>
+                    <p><strong>Edad:</strong> 20 años</p>
+                    <p><strong>Teléfono:</strong> 611015749</p>
+                    <p><strong>Correo:</strong> josevillodres94@gmail.com</p>
+                    <p><strong>Dirección:</strong> C/Carlos Arniches Nº17, Carlinda, Málaga, Málaga</p>
+                    <p>Estudiante de DAM(Desarrollo Aplicaciones Multiplataforma) en el centro Cesur</p>
+                    <details>
+                        <summary><strong>Idiomas y Datos de interés</strong></summary>
+                        <ul>
+                            <li><em>Inglés:</em> B2</li>
+                            <li><em>Español:</em> Nativo</li>
+                            <li><em>Permiso de Conducir:</em> B (Coche)</li>
+                        </ul>
+                    </details>
+                </fieldset>
+            </td>
+            <td style="width: 90%; vertical-align: top; padding: 10px;">
+                <fieldset>
+                    <legend><strong>Conocimientos y Habilidades</strong></legend>
+                    <ul style="padding-left: 20px; margin: 0;">
+                        <li>Uso avanzado de HTML, CSS y JS</li>
+                        <li>Conocimientos de Java,C y C++</li>
+                      <li>Conocimiento elevado de hardware</li>
+                    </ul>
+                </fieldset>
+               <fieldset>
+                    <legend><strong>Formación Profesional</strong></legend>
+                    <ol style="padding-left: 20px; margin: 0;">
+                        <li><p><a href="https://sites.google.com/colegiolacolina.com/colegiolacolina/">ESO:</a> Colegio la Colina</p> </li>
+                        <li><p><a href="https://www.colegiogamarra.com">Bachiller:</a> Colegio Gamarra</p></li>
+                      <li><p><a href="https://www.cesurformacion.com">Formación Profesional</a>(DAM): Cesur</p></li>
+                    </ol>
+                </fieldset>
+             <fieldset>
+    <legend><strong>Experiencia Laboral</strong></legend>
+    <table style="width: 50%; border: 1px solid;">
+        <tr>
+            <td style="vertical-align: top; border: 1px solid;">
+                <p><a href="https://tempus60.com">Tempus 60:</a></p>
+            </td>
+            <td style="border: 1px solid;">
+                <p>Un año de experiencia laboral</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid;">
+                <p><a href="http://www.centur.com">Centur:</a></p>
+            </td>
+            <td style="border: 1px solid;">
+                <p>3 meses en prácticas</p>
+            </td>
+        </tr>
+    </table>
+</fieldset>
+<form action="procesar_formulario.php" method="post">
+    <fieldset>
+        <legend><strong>Formulario de contacto</strong></legend>
+        <p>
+            <label for="name">Nombre:</label>
+            <input name="name" type="text" id="name" required placeholder="Nombre" list="datos">
+            <datalist id="datos"></datalist>
+        </p>
+
+        <p>
+            Apellidos:
+            <input name="apellidos" required type="text">
+        </p>
+
+        <p>
+            <label for="email">Correo:</label>
+            <input name="email" type="email" id="email" required placeholder="example@gmail.com" list="datos">
+            <datalist id="dato">
+                <option>correo@gmail.com</option>
+                <option>correo3@gmail.com</option>
+                <option>correo2@gmail.com</option>
+            </datalist>
+        </p>
+
+        <p>
+            Consulta:
+            <textarea name="consulta" placeholder="Escribe tu consulta aquí"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar información del registro">
+        </p>
+
+        <p>
+            <input type="reset" value="Empezar de nuevo">
+        </p>
+    </fieldset>
+</form>
+  </td>   
+</tr>
+</table>
+</body>
